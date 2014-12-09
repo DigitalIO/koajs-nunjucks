@@ -1,6 +1,6 @@
 {
   "name": "koajs-nunjucks",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Koa Nunjucks rendering middleware",
   "main": "src/index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "dependencies": {
     "nunjucks": "^1.1.0",
     "promise": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=0.11.13"
   }
 }
