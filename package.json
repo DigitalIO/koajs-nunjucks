@@ -1,0 +1,29 @@
+{
+  "name": "koajs-nunjucks",
+  "version": "0.1.0",
+  "description": "Koa Nunjucks rendering middleware",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Faeson/koajs-nunjucks.git"
+  },
+  "keywords": [
+    "Koa",
+    "Nunjucks",
+    "Rennder",
+    "Views"
+  ],
+  "author": "Faeson Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Faeson/koajs-nunjucks/issues"
+  },
+  "homepage": "https://github.com/Faeson/koajs-nunjucks",
+  "dependencies": {
+    "nunjucks": "^1.1.0",
+    "promise": "^6.0.1"
+  }
+}
