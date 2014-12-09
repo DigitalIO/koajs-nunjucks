@@ -1,0 +1,54 @@
+{
+  "name": "koajs-nunjucks",
+  "version": "1.0.0",
+  "dependencies": {
+    "nunjucks": {
+      "version": "1.1.0",
+      "from": "nunjucks@",
+      "resolved": "https://registry.npmjs.org/nunjucks/-/nunjucks-1.1.0.tgz",
+      "dependencies": {
+        "optimist": {
+          "version": "0.6.1",
+          "from": "optimist@*",
+          "resolved": "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz",
+          "dependencies": {
+            "wordwrap": {
+              "version": "0.0.2",
+              "from": "wordwrap@~0.0.2",
+              "resolved": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+            },
+            "minimist": {
+              "version": "0.0.10",
+              "from": "minimist@~0.0.1",
+              "resolved": "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz"
+            }
+          }
+        },
+        "chokidar": {
+          "version": "0.9.0",
+          "from": "chokidar@~0.9.0",
+          "resolved": "https://registry.npmjs.org/chokidar/-/chokidar-0.9.0.tgz",
+          "dependencies": {
+            "recursive-readdir": {
+              "version": "0.0.2",
+              "from": "recursive-readdir@0.0.2",
+              "resolved": "https://registry.npmjs.org/recursive-readdir/-/recursive-readdir-0.0.2.tgz"
+            }
+          }
+        }
+      }
+    },
+    "promise": {
+      "version": "6.0.1",
+      "from": "promise@",
+      "resolved": "https://registry.npmjs.org/promise/-/promise-6.0.1.tgz",
+      "dependencies": {
+        "asap": {
+          "version": "1.0.0",
+          "from": "asap@~1.0.0",
+          "resolved": "https://registry.npmjs.org/asap/-/asap-1.0.0.tgz"
+        }
+      }
+    }
+  }
+}
