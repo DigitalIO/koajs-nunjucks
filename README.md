@@ -26,7 +26,7 @@ app.use( fMiddleware );
 ```
 
 ## Usage
-The render function is attached to the Koa context. It is availiable in other middleware functions directly as "this".
+The render function is attached to the Koa context. It is availiable in other middleware functions directly as "this". The function renders the view and automatically sets it as the response body. 
 
 ```js
 yield this.render('home.nj', { username: 'Bob' });
